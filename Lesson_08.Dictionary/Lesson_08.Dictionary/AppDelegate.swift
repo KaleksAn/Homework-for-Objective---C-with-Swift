@@ -63,7 +63,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         for key in sortedArray {
             if let student = studentJournal[key] {
-                print("Student: \(student.surname) \(student.name)")
+                print("Student: \(student.fullName)")
                 print("Phrase: \(student.phrase)")
             }
         }

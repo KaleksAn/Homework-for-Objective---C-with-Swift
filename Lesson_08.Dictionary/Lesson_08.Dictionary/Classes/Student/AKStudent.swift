@@ -10,6 +10,9 @@ import Foundation
 class Student {
     var name: String
     var surname: String
+    var fullName: String {
+        return surname + " " + name
+    }
     var phrase: String
     
     init(name: String, surname: String, phrase: String) {
@@ -19,7 +22,8 @@ class Student {
     }
     
     func key() -> String {
-        return "\(self.surname) \(self.name)"
+        //return "\(self.surname) \(self.name)"
+        return "\(fullName)"
     }
     
 }
