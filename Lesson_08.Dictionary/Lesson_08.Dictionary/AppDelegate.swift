@@ -24,12 +24,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let student_6 = Student(name: "Nikolay", surname: "Petrov", phrase: "I buy this  gift")
         
         //Task 3 - 4
-        let studentJournal = [student_1.key() : student_1,
-                              student_2.key() : student_2,
-                              student_3.key() : student_3,
-                              student_4.key() : student_4,
-                              student_5.key() : student_5,
-                              student_6.key() : student_6]
+        let studentJournal = [student_1.key(): student_1,
+                              student_2.key(): student_2,
+                              student_3.key(): student_3,
+                              student_4.key(): student_4,
+                              student_5.key(): student_5,
+                              student_6.key(): student_6]
         
     var count = 1
     var arrayKeys = [String]()
